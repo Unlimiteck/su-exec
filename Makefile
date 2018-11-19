@@ -17,4 +17,4 @@ clean:
 	rm -f $(PROG) $(PROG)-static
 
 install: $(PROG)
-        install -m 755 $(PROG) $(DESTDIR)$(PREFIX)/bin/
+	install -m 755 $(PROG) $(DESTDIR)$(PREFIX)/bin/
